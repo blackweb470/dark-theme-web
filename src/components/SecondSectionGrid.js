@@ -8,7 +8,7 @@ import SingleGridElement from "./SingleGridElement";
 
 const SecondSectionGrid = () => {
     return (
-        <div className=" bg-main-background w-screen text-White text-center md:pt-20 pt-36 lg:pt-0  grid md:grid-cols-2 gap-10 px-10 lg:px-64">
+        <div className=" bg-main-background  text-White text-center md:pt-20 pt-36 lg:pt-0  grid md:grid-cols-2 gap-10 px-10 lg:px-64">
          <SingleGridElement
          image={AccessImage}
          header="Access your files, anywhere"

@@ -9,7 +9,7 @@ import InstagramIcon from "../images/icons8-instagram.svg"
 
 function Footer () {
     return(
-        <div className=" p-10 bg-footer-background w-screen md:px-28 font-serif  text-White">
+        <div className=" p-10 bg-footer-background  md:px-28 font-serif  text-White">
             <div className="md:grid  gap-10 md:grid-cols-2 space-y-10 lg:grid-cols-3 xl:grid-cols-5">
                 <div className="space-y-4">
                      <img src={Logo} alt="logo" className="w-20"></img>

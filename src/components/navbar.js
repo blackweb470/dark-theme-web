@@ -6,7 +6,7 @@ import CloseIcon from "../images/icons8-close.svg"
 
 function Navbar () {
 return(
-    <div className=" w-screen bg-Dark-Blue font-serif">
+    <div className="  bg-Dark-Blue font-serif">
         <nav className="flex justify-between p-10">
             <div className="logo-container">
                 <img className=" w-20" src={Logo} alt="logo"/>

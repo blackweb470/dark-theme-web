@@ -4,7 +4,7 @@ import MobileCurve from "../images/bg-curvy-mobile.svg"
 
 function FirstSection () {
 return(
-    <div className=" bg-Dark-Blue w-screen font-serif">
+    <div className=" bg-Dark-Blue font-serif">
         <div className="text-White relative">
             <img className="hidden md:block w-screen" src={DesktopCurve} alt="curve"/>
            <img className="md:hidden w-screen"  src={MobileCurve} alt="curve"/>

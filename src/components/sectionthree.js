@@ -4,7 +4,7 @@ import ProductiveImage from "../images/illustration-stay-productive.png"
 const SectionThree = () => {
 return(
     <div>
-        <div className="bg-main-background w-screen font-serif md:flex  p-10 pt-20 text-white  gap-10">
+        <div className="bg-main-background font-serif md:flex  p-10 pt-20 text-white  gap-10">
             <div className=" ">
                 <img className=" w-100%" src={ProductiveImage} alt="illustration" />
             </div>

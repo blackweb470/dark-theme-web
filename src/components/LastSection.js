@@ -5,7 +5,7 @@ class LastSection extends React.Component {
 
 render() {
     return(
-           <div className="bg-footer-background w-screen relative  px-4 md:px-36  xl:px-96 ">
+           <div className="bg-footer-background w-100% relative  px-4 md:px-36  xl:px-96 ">
             <div className="text-center  bg-testimonials-background shadow-2xl p-7 font-serif mx-auto  relative top-6   md:-top-28 xl:-top-32 space-y-10 rounded-md">
                 <div className="space-y-4"> 
                     <h1 className="text-2xl text-White"> Get early access today</h1>

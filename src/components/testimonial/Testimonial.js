@@ -8,7 +8,7 @@ import Quote from "./profile/bg-quotes.png"
 
 const TestimonialUi = () => {
 return(
-    <div className=" bg-main-background w-screen lg:h-45rem  md:h-60rem  xl:h-40rem p-4 md:p-32">
+    <div className=" bg-main-background lg:h-45rem  md:h-60rem  xl:h-40rem p-4 md:p-32">
         <img src={Quote} alt="Quote" />
        <div className="grid lg:grid-cols-3  gap-5 md:grid-cols-2">
        <SingleTestimonialUi
