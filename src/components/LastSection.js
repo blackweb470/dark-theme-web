@@ -13,8 +13,8 @@ render() {
                          our support team would be happy to help you</p>
                 </div>
                 <div className="md:flex gap-3 space-y-10 md:space-y-0">
-                    <input className="w-100% h-12 rounded-3xl pl-4" placeholder="email@emample.com" />
-                    <button className=" bg-Blue text-White rounded-3xl w-100% h-12">Get Started For Free</button>
+                    <input className=" text-main-background outline-none w-100% h-12 rounded-3xl pl-4" placeholder="email@emample.com" />
+                    <button className=" hover:bg-opacity-25 transition-all duration-700 bg-Blue text-White rounded-3xl w-100% h-12">Get Started For Free</button>
                 </div>
             </div>
         </div>
