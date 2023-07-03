@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/navbar"
+import FirstSection from "./components/firstSection";
+import SecondSectionGrid from "./components/SecondSectionGrid";
+import SectionThree from "./components/sectionthree";
+import SingleTestimonialUi from "../src/components/testimonial/Testimonial"
+import LastSection from "./components/LastSection"
+import Footer from "./components/Footer"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Navbar/>
+    <FirstSection />
+    <SecondSectionGrid />
+    <SectionThree />
+    <SingleTestimonialUi />
+    <LastSection />
+    <Footer />
     </div>
   );
 }
